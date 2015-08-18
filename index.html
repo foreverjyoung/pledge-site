@@ -1,0 +1,115 @@
+<html>
+
+<head>
+	<title>Alpha Phi Omega | Gamma Gamma Chapter</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="UC Berkeley's Alpha Phi Omega, Gamma Gamma Chapter! Come check us out!">
+	<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Codystar" rel="stylesheet" type="text/css">
+	<link href="bootstrap/bootstrap.min.css" rel="stylesheet"> 
+	<link href="css/index.css" rel="stylesheet" type="text/css"> 
+	<link href="img/favicon.png" rel="icon">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=""><img src="img/brand.png" alt="Alpha Phi Omega" width="175"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav">
+            <li class='active'><a href="#home">Home</a></li>
+			      <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/rush.html">Rush</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rush</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://rush.calaphio.com">Fall Rush 2015</a></li>
+              </ul>
+            </li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/service-projects.html">Projects</a></li>
+                <li><a href="pages/service-10-steps.html">10 Steps to Chairing</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fellowship</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="pages/fellowship.html">Guidelines</a></li>
+              </ul>
+            </li>
+
+			      <li><a href="pages/officers.html">Officers</a></li>
+            <li><a href="http://live.calaphio.com"> Actives Only</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actives</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://live.calaphio.com/roster.php" target="_blank">Current Members</a></li>
+                <li><a href="http://live.calaphio.com/alumni.php" target="_blank">Alumni</a></li>
+              </ul>
+            </li> -->
+
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	<div class="jumbotron">
+			<h1> Alpha Phi Omega </h1>
+			<h2> Be a leader. Be a friend. Be of Service. </h2>  
+	</div> 
+	
+	<div class="main"> <!-- photo --> 
+		<div class = "fadein"> 
+			<img src = "photos/photo3.jpg" alt="Slide 7">
+			<img src = "photos/photo2.jpg" alt="Slide 2">
+			<img src = "photos/photo5.jpg" alt="Slide 1"> 
+			<img src = "photos/photo6.jpg" alt="Slide 3"> 
+			<img src = "photos/photo7.jpg" alt="Slide 4"> 
+			<img src = "photos/photo9.jpg" alt="Slide 5">
+			<img src = "photos/photo13.jpg" alt="Slide 6"> 
+			<img src = "photos/photo15.jpg" alt="Slide 7">
+    	</div> 
+	</div> 
+
+	<div class="footer">
+		<p>Alpha Phi Omega | Gamma Gamma Chapter</p>
+		<p>Copyright © 2015. All Rights Reserved.</p> 
+		<!-- <img src="logo4.png" style="float:right; width:70px;height:62px;"> --> 
+	</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+$(function() {
+$('.fadein img:gt(0)').hide();
+
+setInterval(function () {
+    $('.fadein :first-child').fadeOut()
+        .next('img')
+        .fadeIn()
+        .end()
+        .appendTo('.fadein');
+}, 3000); // 3 seconds
+});
+
+
+</script>
+</body> 
+</html> 
