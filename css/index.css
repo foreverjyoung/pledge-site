@@ -1,40 +1,30 @@
-@charset "utf-8"; 
 
-/* CSS Document */ 
-
-
-body {
-	background-color: #00477F;
+#splash {
+	background: url(cover.png);
+	background-size: cover;
+	height: 625px;
+	width: auto;
+	margin-top: 60px;
 }
 
-.jumbotron{
-	background-color: #00477F;
-	margin-top: 35px;
-}
-
-.jumbotron h1 {
+#splash h1 {
 	text-align: center; 
 	font-size: 90px;
-	font-weight: bold;
-	padding-bottom: 0px; 
-	margin-bottom: -20px;
-	color: #FFB81C;
+	font-family: 'Garamond', cursive;
+	font-weight: 100;
+	color: #F5F5F5;
 	text-shadow: 2px 2px black;
-	padding-top: 50px;
-	font-family: garamond;
-	/*font-family: 'Codystar', cursive;*/
-	letter-spacing: px;
+	padding-top: 200px;
 }
 
-.jumbotron h2 {
-	font-family:'Raleway', sans-serif;
-	text-transform: lowercase;
-	color: white;
+#splash  h2 {
 	text-align: center; 
 	font-size: 30px; 
-	padding-top: 10px;
+	font-weight: 300;
+	font-family:'Raleway', sans-serif;
+	text-transform: lowercase;
+	color: #F5F5F5;
 	text-shadow: 2px 2px black;
-
 }
 
 .navigation {
@@ -50,8 +40,6 @@ body {
 	padding: 13px; 
 	text-transform: uppercase;
 	font-family:'Raleway', sans-serif;
-	/* font-family: 'Muli', sans-serif; */  
-
 }
 
 .nav {
@@ -61,43 +49,26 @@ body {
 	-webkit-padding-start: 0px;
 }
 
-
-/* why does not override */  
-.nav li a:active {
-	color: #FFB81C;
-
+.row {
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
 }
-
-
-
-/*
-.navigation li a {
-	color: #FFB81C;
-	text-decoration: none;
-	text-shadow: 1px 1px black;
-
-}
-
-
-.navigation li a:hover { 
-	color: white;
-	text-decoration: none;
-
-}
-*/
-
-
 
 .main {
-	background-color: white; 
+	background-color: #FAFAFA; 
 	margin: auto;
-	margin-top: 35px;
-	padding-top: 25px;
-	padding-bottom: 150px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	text-align: center;
-	text-shadow: 10px 10px 10px 10px #4e4e56;
 	width: 100%; 
-    height: 100%; 
+    height: 600px; 
+}
+
+.main h1 {
+	font-size: 36px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .fadein { 
@@ -105,9 +76,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px; 
-    height: 532px; 
+    height: 500px; 
 	display: block;
-    /*padding-top: 20px;*/
    
 }
 
@@ -115,42 +85,63 @@ body {
 	display: block;
 	position: absolute;
 	width: 800px; 
-    height: 532px; 
-	/*border: white 1px outset; */ 
-	box-shadow: 1px 0px 8px 1px white;  
+    height: 500px; 
 }
 
 .footer {
-	padding: 20px;
+	background-color: #00477F;
 	width: 100%;
 	margin: 0 auto;
-	height: 50px;
+	height: 75px;
 }
 
 .footer p {
 	text-align: left;
-	padding: 5px;
+	padding-left: 25px;
 	color: #FFB81C; 
-	line-height: 2px;
+	line-height: 1px;
 	size: 10px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100px;
 	text-shadow: 1px 1px black;
+	padding-top: 10px;
 }
-
 
 #left {
 	float: left;
-	line-height: 50px;
-	padding-left: 30px;
-	padding-bottom: 20px;
 }
 
 #right {
 	float: right;
-	line-height: 50px;
 	padding-right: 65px;
-	padding-bottom: 20px;
+}
+
+.fa-stack {
+    border-radius: 100%;
+    border: 2px solid #FFB81C;
+    height: 36px;
+    width: 36px;
+    margin: 4px;
+	margin-top: 18px;
+}
+
+.fa-facebook {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+	padding-right: 2px;
+}
+
+.fa-instagram {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+}
+
+.fa-youtube {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
 }
 
 }
