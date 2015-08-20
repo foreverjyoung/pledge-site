@@ -2,61 +2,109 @@
 
 /* CSS Document */ 
 
-.jumbotron {
+#cover {
+	background: url(officers-cover.png);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#cover h1 {
 	text-align: center; 
-	font-weight: bold;
-	margin-bottom: -20px;
-	color: #FFB81C;
+	font-size: 80px;
+	font-family: 'Garamond', cursive;
+	font-weight: 100;
+	color: #F5F5F5;
 	text-shadow: 2px 2px black;
-	padding-top: 100px;
-
+	padding-top: 150px;
 }
 
-.jumbotron p {
-	font-size: 50px;
-	margin-bottom: -30px;
+.row {
+	margin-top: 10px;
 }
 
-.main2 {
-	padding-bottom: 30px;
+.excomm-info {
 	padding: 50px;
-	/*margin-left: 20px;*/
+	padding-bottom: 80px;
+	background-color: #FBFBFB;
 }
 
-.main2 img {
+.excomm-info img {
 	padding: 10px;
 	padding-bottom: 20px;
 	padding-top: 30px;
-
-
 }
 
-.main2 p {
+.excomm-info h3{
+	font-size: 20px;
 	text-align: center;
-	text-shadow: 1px 1px black;
-	color: #FFB81C;
+	color: #333333;
 	line-height: 15px;
+	padding-bottom: 5px;
 }
 
-.main2 h2 {
+.excomm-info h4 {
 	text-align: center;
-	text-shadow: 1px 1px black;
-	color: white;
+	color: #333333;
 	line-height: 0px;
 	font-size: 15px;
-
 }
 
-.line-separator {
-	height: 4px;
-	border-bottom: 1px solid white;
-	width: 90%;
-	margin: 0px auto;
-	padding-top: 45px;
-	padding-bottom: 15px;
+.footer {
+	background-color: #00477F;
+	width: 100%;
+	margin: 0 auto;
+	height: 75px;
 }
 
+.footer p {
+	text-align: left;
+	padding-left: 25px;
+	color: #FFB81C; 
+	line-height: 1px;
+	size: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100px;
+	text-shadow: 1px 1px black;
+	padding-top: 10px;
+}
 
+#left {
+	float: left;
+}
 
+#right {
+	float: right;
+	padding-right: 65px;
+}
+
+.fa-stack {
+    border-radius: 100%;
+    border: 2px solid #FFB81C;
+    height: 36px;
+    width: 36px;
+    margin: 4px;
+	margin-top: 18px;
+}
+
+.fa-facebook {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+	padding-right: 2px;
+}
+
+.fa-instagram {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+}
+
+.fa-youtube {
+    color: #FFB81C;
+    font-size: 18px;
+	line-height: 32px;
+}
 
 }
