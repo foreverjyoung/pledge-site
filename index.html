@@ -125,25 +125,20 @@
 		</div>	
 	</div> 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		$('.fadein img:gt(0)').hide();
 
-
-$(function() {
-$('.fadein img:gt(0)').hide();
-
-setInterval(function () {
-    $('.fadein :first-child').fadeOut()
-        .next('img')
-        .fadeIn()
-        .end()
-        .appendTo('.fadein');
-}, 3000); // 3 seconds
-});
-
-
-</script>
-	
+		setInterval(function () {
+			$('.fadein :first-child').fadeOut()
+				.next('img')
+				.fadeIn()
+				.end()
+				.appendTo('.fadein');
+		}, 3000); // 3 seconds
+		});
+	</script>
 </body> 
 
 </html> 
