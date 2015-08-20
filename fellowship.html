@@ -52,16 +52,31 @@
 		<h2>"Never look down on someone unless you're helping them up."</h2>
 		<h2>- Jesse Jackson</h2>
 	</section>
+
+
+
 	
 	<div class="text-container">
-		<h3>"Fellowships" are what Alpha Phi Omega calls its activities for its fraternity brothers.
-		These fellowships foster better friendships and relationships between one another and bring brothers closer together.
-		Fellowships can range from any type of event, from going out to eat at a cheap or nice restaurant, to playing basketball on a Sunday afternoon.
-		Anything goes! These fellowships are designed for brother to meet other brothers who normally do not interact with each other.
-		When people are brought together in a common interest, they tend to connect better with others.
-		The only thing we ask for you to do is that each time you walk home from a fellowship, you feel closer to,
-		or have gotten to know at least one person better than you did before starting the fellowship.</h3>
+		<div style = "margin-left: 100px; margin-right: 100px; margin-bottom: 50px">
+		<h3> The brotherhood and camaraderie that exists among our members sets us apart from any other service organization. We believe helping others can be even more fun alongside familiar faces and friends as we learn and grow from our experiences together. Fellowships are social events and bondings to foster friendship and community among fraternity brothers and encompass a diverse range of recreational activities, including playing sports, eating, attending Berkeley events, exploring the Bay area, and other spectacular events such as skydiving. At the end of the day, we are not just individuals who do service together, but friends who can trust and depend on each other. These friendships come to form the glue that sustains our membership for years to come. </h3>
+	</div> 
 	</div>
+
+
+	<div class="main">
+		<div align = "center" style = "margin-bottom: 50px"> 
+		<div class="fadein" > 
+
+			<img src="slideshow/photo2.jpg" alt="Slide 1" > 
+			<img src="slideshow/photo5.jpg" alt="Slide 3" > 
+			<img src="slideshow/photo6.jpg" alt="Slide 4" > 
+			<img src="slideshow/photo7.jpg" alt="Slide 5" >
+			<img src="fellowship/photo3.jpg" alt="Slide 3" >
+			<img src="fellowship/photo5.jpg" alt="Slide 5" > 
+			
+    	</div> 
+    	</div> 
+	</div> 
 
 	<div class="footer">
 		<div id="left">
@@ -88,6 +103,22 @@
 				</span>
 		</div>	
 	</div> 
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		$('.fadein img:gt(0)').hide();
+
+		setInterval(function () {
+			$('.fadein :first-child').fadeOut()
+				.next('img')
+				.fadeIn()
+				.end()
+				.appendTo('.fadein');
+		}, 3000); // 3 seconds
+		});
+	</script>
+
 </body>
 
 </html>

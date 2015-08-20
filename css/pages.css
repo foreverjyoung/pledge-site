@@ -52,6 +52,28 @@ h3 {
 	line-height: 28px;
 }
 
+.service strong {
+	font-size: 30px;
+	color: #00477F;
+	text-shadow: none;
+	text-align: left;
+}
+
+.service a:hover {
+	text-transform: none;
+	color: #FFB81C;
+}
+
+.service h2 {
+	font-size: 20px;
+	color: black;  
+	text-shadow: none;
+	text-align: left;
+	text-transform: bold;
+	line-height: 9px;
+	padding-top: 5px;
+}
+
 .navigation {
 	text-align: center; 
 	box-shadow: 10px #888888; 
