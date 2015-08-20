@@ -104,6 +104,34 @@ h3 {
 	margin-bottom: 40px;
 }
 
+.main {
+	background-color: #FAFAFA; 
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	text-align: center;
+	width: 100%; 
+    height: 600px; 
+}
+
+.fadein { 
+	position: relative; 
+	width: 100%; 
+    height: 500px; 
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.fadein img { 
+	display: block;
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
 .footer {
 	background-color: #00477F;
 	width: 100%;
