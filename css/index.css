@@ -27,17 +27,45 @@
 	text-shadow: 2px 2px black;
 }
 
-#splash  h1:hover {
-	font-size: 100px;
+#info {
+	margin-top: 60px;
+}
+
+#info h3 {
+	font-size: 42px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#info p {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+}
+
+#graphic img {
+	margin-top: 60px;
+	margin-left: 120px;
+	height: 70%;
+}
+
+.text-container {
+	margin: 0 auto;
+	width: 70%;
 }
 
 .lfs {
-	padding-top: -10px;
-	margin-bottom: 50px;
+	background-color: #F5F5F5;
+	height: 600px;
 }
 
 .lfs h1 {
-	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+.lfs img {
+	margin-top: 75px;
 }
 
 .navigation {
@@ -60,50 +88,17 @@
     list-style-type: disc;
     -webkit-margin-start: 0px;
 	-webkit-padding-start: 0px;
+	padding-left: 100px;
 }
 
 .row {
 	width: 90%;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
-.main {
-	background-color: #FAFAFA; 
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 80px;
-	padding-top: 80px;
-	margin-bottom: 80px;
-	text-align: center;
-	width: 50%; 
-    height: 50%; 
-}
-
-
-.main h1 {
-	font-size: 36px;
-	padding-top: 50px;
-	padding-bottom: 20px;
-}
-
-.fadein { 
-	position: relative; 
-	width: 50%; 
-    height: 50%; 
-	display: block;
-   
-}
-
-.text-container p {
-	font-size: 100px;
-}
-
-.fadein img { 
-	margin-top: 50px;
-	display: block;
-	position: absolute;
-		
+#message {
+	height: 500px;
 }
 
 .footer {
