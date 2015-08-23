@@ -3,7 +3,7 @@
 /* CSS Document */ 
 
 #cover {
-	background: url(officers-cover.png);
+	background: url(../../assets/covers/officers.png);
 	background-size: cover;
 	height: 400px;
 	width: auto;

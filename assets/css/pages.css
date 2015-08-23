@@ -1,71 +1,83 @@
 
-#splash {
-	background: url(cover.png);
+body {
+	background-color: #FBFBFB;
+}
+
+#cover1 {
+	background: url(../covers/projects.png);
 	background-size: cover;
-	height: 625px;
+	height: 400px;
 	width: auto;
 	margin-top: 60px;
 }
 
-#splash h1 {
+#cover2 {
+	background: url(../covers/10-steps.png);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#cover3 {
+	background: url(../covers/fellowship.png);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+h1 {
 	text-align: center; 
-	font-size: 90px;
+	font-size: 80px;
 	font-family: 'Garamond', cursive;
 	font-weight: 100;
 	color: #F5F5F5;
 	text-shadow: 2px 2px black;
-	padding-top: 200px;
+	padding-top: 125px;
 }
 
-#splash  h2 {
+h2 {
 	text-align: center; 
 	font-size: 30px; 
 	font-weight: 300;
 	font-family:'Raleway', sans-serif;
-	text-transform: lowercase;
 	color: #F5F5F5;
 	text-shadow: 2px 2px black;
 }
 
-#info {
-	margin-top: 60px;
-}
-
-#info h3 {
-	font-size: 42px;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	padding-bottom: 5px;
-}
-
-#info p {
-	font-size: 18px;
-	font-family: 'Raleway', sans-serif;
+h3 {
 	text-align: justify;
+	font-size: 24px;
+	line-height: 28px;
 }
 
-#graphic img {
-	margin-top: 60px;
-	height: 70%;
-	width: 75%;
+h4 {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 28px;
+	text-indent: 40px;
 }
 
-.text-container {
-	margin: 0 auto;
-	width: 70%;
+.service strong {
+	font-size: 24px;
+	color: #00477F;
+	text-shadow: none;
+	text-align: left;
 }
 
-.lfs {
-	background-color: #F5F5F5;
-	height: 600px;
+.service a:hover {
+	text-transform: none;
+	color: #FFB81C;
 }
 
-.lfs h1 {
-	padding-top: 20px;
-}
-
-.lfs img {
-	margin-top: 75px;
+.service h2 {
+	font-size: 20px;
+	color: black;  
+	text-shadow: none;
+	text-align: left;
+	line-height: 9px;
+	padding-top: 10px;
 }
 
 .navigation {
@@ -91,13 +103,48 @@
 	padding-left: 100px;
 }
 
-.row {
-	width: 90%;
-	margin: auto;
-	margin-top: 75px;
+.text-container {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #FBFBFB;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-#message {
+.fellowship-container {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #FBFBFB;
+	margin-top: 80px;
+}
+
+.main {
+	background-color: #FBFBFB; 
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	text-align: center;
+	width: 100%; 
+    height: 550px; 
+}
+
+.fadein { 
+	position: relative; 
+	width: 800px; 
+    height: 500px; 
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.fadein img { 
+	display: block;
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 800px;
 	height: 500px;
 }
 
