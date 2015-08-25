@@ -7,7 +7,7 @@ body {
 	width: 90%;
 	height: auto;
 	margin: 0px auto;
-	margin-top: 90px;
+	margin-top: 70px;
 	margin-bottom: 90px;
 	background-color: #FFF;
 }
@@ -39,29 +39,40 @@ body {
     -webkit-margin-end: 0px;
 }
 
-#rush-info-1 {
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 120px;
-	margin-bottom: 40px;
+#cover {
+	background-color: #00477F;
+	height: 300px;
+	width: auto;
+	margin-top: 60px;
 }
 
-#rush-info-1 p {
-	text-indent: 40px;
-	padding-right: 40px;
+#cover h1 {
+	text-align: center; 
+	font-size: 65px;
+	font-family: 'Garamond', cursive;
+	font-weight: 100;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+	padding-top: 130px;
 }
 
-#rush-info-2 {
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 90px;
-	margin-bottom: 90px;
+#cover h2 {
+	text-align: center; 
+	font-size: 30px; 
+	font-weight: 300;
+	font-family:'Garamond', sans-serif;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
 }
 
-#rush-info-2 p {
-	text-indent: 40px;
-	padding-left: 40px;
+.container h1 {
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'Garamond', cursive;
+	color: #00477F;
 }
+
 
 #line-separator {
 	border: 1px solid rgba(0, 0, 0, 0.2);
@@ -123,23 +134,34 @@ body {
 
 
 .text-container h2 {
-	color: #333333;
-	font-size: 28px;
+	font-size: 35px;
 	font-family: 'Garamond', cursive;
+	color: #00477F;
+}
 
+.text-container ul {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	text-align: left;
+	padding-left: 250px;
+	font-size: 20px;
 }
 
 .text-container h3 {
-	color: #00477F;
+	padding-left: 125px;
+	padding-right: 125px;
+	text-align: left;
+	font-size: 25px;
+	font-family: 'Garamond', cursive;
 	
 }
 
-.text-container h2, h3 {
+/*.text-container h2, h3 {
   width: 50%;
   height: 60px;
   margin: 0;
   display: inline;
-}
+}*/
 
 .footer {
 	background-color: #00477F;
