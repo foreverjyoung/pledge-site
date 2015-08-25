@@ -1,3 +1,55 @@
+#cover1 {
+	background: url(../assets/covers/leadership2.jpg);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#cover1 h1 {
+	padding-top: 125px;
+	color: white;
+	font-family: 'Garamond', cursive;
+	font-size: 85px;
+
+}
+
+#cover1 h2 {
+	color: white;
+	font-size: 30px;
+	text-shadow: 2px 2px black;
+} 
+
+#leadership p {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 28px;
+	text-indent: 40px;
+	margin-right: 100px ;
+	margin-left: 100px ;
+}
+
+
+h1 {
+	text-align: center; 
+	font-size: 80px;
+	font-family: 'Garamond', cursive;
+	font-weight: 100;
+	color: #F5F5F5;
+	text-shadow: 2px 2px black;
+	padding-top: 225px;
+}
+
+h2 {
+	text-align: center; 
+	font-size: 30px; 
+	font-weight: 300;
+	font-family:'Raleway', sans-serif;
+	color: #F5F5F5;
+	text-shadow: 2px 2px white;
+}
+
+
 #rush-info-1 {
 	width: 80%;
 	margin: 0 auto;

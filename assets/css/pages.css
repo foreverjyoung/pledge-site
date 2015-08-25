@@ -27,6 +27,54 @@ body {
 	margin-top: 60px;
 }
 
+#cover4 {
+	background: url(../covers/leadership2.jpg);
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-top: 60px;
+}
+
+#line-separator {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+/*#rush-info-1 {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: 40px;
+}
+
+#rush-info-1 p {
+	text-indent: 40px;
+	padding-right: 40px;
+}*/
+
+#rush-info-2 {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+#rush-info-2 h1 {
+	font-size: 30px;
+	color: #00477F;
+	text-shadow: 1px 1px black;
+	font-family:'Raleway', sans-serif;
+	margin-top: -110px;
+}
+
+#rush-info-2 p {
+	text-indent: 40px;
+	padding-left: 40px;
+	font-size: 20px;
+}
+
 h1 {
 	text-align: center; 
 	font-size: 80px;
@@ -56,7 +104,7 @@ h4 {
 	text-align: justify;
 	font-size: 20px;
 	line-height: 28px;
-	text-indent: 40px;
+	/*text-indent: 40px;*/
 }
 
 .service strong {
