@@ -1,6 +1,6 @@
 
 body { 
-    background-image: url('../img/background.png');
+    background-image: url('../assets/img/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -37,91 +37,73 @@ body {
 	padding-left: 60px;
 }
 
-h1 {
+#title h1 {
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Lato', sans-serif;
 	color: #111;
-	padding-left: 60px;
 }
 
-.post {
-	padding-bottom: 60px;
+.spacer{
+	margin-left: 7.33333333%;
 }
 
-#announcements {
+.profile-pic {
+	background: #e0e0e0;
+	width: 165px;
+}
+
+.profile-pic:hover {
+	transition: all 0.4s ease-out;
+	background: #337ab7;
+	width: 165px;
+	color: #fff;
+	opacity: 0.85;
+}
+
+.profile-pic a:hover {
+	text-decoration: none;
+	transition: all 0.2s ease-out;
+	color: #fff;
+}
+
+.profile-pic img {
+	width: 165px;
+	height: 200px;
+	overflow: hidden;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	margin-top: 12.5px;
+}
+
+.profile-pic img:hover {
+	transition: all 0.4s ease-out;
+}
+
+.row {
+	padding-bottom: 40px;
+}
+
+#pcomm {
 	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
-#announcements .post h1 {
-	text-align: left;
-	font-size: 24px;
-	padding-left: 150px;
+#excomm {
+	margin-top: 40px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.profile-pic h1 {
+	font-size: 18px;
 	margin-bottom: 3px;
-}
-
-#announcements .post h2 {
-	font-size: 18px;
-	font-family: 'Lato', sans-serif;
-	padding-left: 150px;
-	color: #337ab7;
-	margin-bottom: 20px;
-}
-	
-#announcements .post p {
-	font-size: 18px;
-	font-family: 'Lato', sans-serif;
-	text-align: justify;
-	padding-left: 150px;
-	padding-right: 150px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-#announcements .post li{
-	font-size: 18px;
-	font-family: 'Lato', sans-serif;
-	text-align: justify;
-	padding-left: 150px;
-	padding-right: 150px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-#graphic {
-	width: 100%;
-	height: 500px;
-	background-color: #3855A2;
-	border-style: none;
-}
-
-#graphic img {
-	width: 85%;
-	margin: 0 auto;
-	margin-top: 20px;
-}
-
-.text-container {
-	margin: 0 auto;
-	width: 70%;
-}
-
-.lfs {
-	background-color: #FFF;
-	height: 575px;
-}
-
-.lfs h1 {
-	padding-top: 20px;
-}
-
-.lfs img {
-	margin-top: 35px;
 }
 
 #line-separator {
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -147,32 +129,6 @@ h1 {
 	-webkit-padding-start: 0px;
 	float: right;
 	padding-right: 10%;
-}
-
-.row {
-	width: 90%;
-	margin: auto;
-	margin-top: 75px;
-}
-
-#message {
-	height: 515px;
-	width: 1300px;
-	margin: 0 auto;
-	margin-top: -30px;
-}
-
-#message h1{
-	margin-top: -20px;
-}
-
-#message p {
-	font-family: 'Lato', sans-serif;
-	font-size: 19px;
-	text-align: justify; 
-	padding-right: 10px;
-	margin-top: -15px;
-
 }
 
 .footer {
@@ -230,5 +186,6 @@ h1 {
     font-size: 18px;
 	line-height: 32px;
 }
+
 
 }
